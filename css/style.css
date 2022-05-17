@@ -301,6 +301,12 @@ nav ul li a{
 }
 
 
+.nosotros{
+    background: linear-gradient(to bottom right, blue, white)
+}
+
+
+
 section{
     margin-top: 10%;
     margin-bottom: 10%;
