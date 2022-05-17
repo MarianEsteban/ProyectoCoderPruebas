@@ -12,7 +12,7 @@ body{
     background-color: aliceblue;
 }
 
-
+/* INICIO */
 .contenido-inicio{
     margin: 10%;
     padding: 2%;
@@ -84,7 +84,7 @@ main  p{
     padding: 10px;
 }
 
-
+/* CONTACTO */
 
 .formulario{
     margin-top: 10%;
@@ -157,6 +157,9 @@ main p{
     font-weight: 100;
 }
 
+/* FOOTER*/
+
+
 footer{
     width: 100%;
     padding: 50px 0px;
@@ -226,6 +229,8 @@ footer{
     background-color: #7a7a7a;
 }
 
+/* HEADER */
+
 
 header{
     width: 100%;
@@ -257,6 +262,10 @@ header .logoheader{
 .logoheader{
     width: 100px;
 }
+
+
+/* NAV*/
+
 
 .style-nav{
     position: relative;
