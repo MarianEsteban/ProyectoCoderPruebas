@@ -87,7 +87,7 @@ main  p{
 /* CONTACTO */
 
 .formulario{
-    margin-top: 10%;
+    margin-top: 20%;
     width: 100%;
     max-width: 1100%;
     margin: auto;
@@ -262,6 +262,25 @@ header .logoheader{
 .logoheader{
     width: 100px;
 }
+
+/*CARDS PRODUCTOS*/
+
+.Cards{
+    margin-top: 10%;
+    padding: 2%;
+}
+
+.Cards{
+    display: flex;
+    align-items: center;
+   
+}
+
+.card1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 
 
 /* NAV DESHABILITADO POR BOOTSTRAP
