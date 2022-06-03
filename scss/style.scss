@@ -1,6 +1,7 @@
 /* VARIABLES */
 
-
+@import "footer";
+@import "maps";
 
 * {
     margin: 0%;
@@ -331,8 +332,7 @@
     background: linear-gradient(to bottom right, blue, white);
   }
   
-
-  
+ 
 
   @media screen and (max-width: 800px) {
     .formulario {
@@ -342,7 +342,7 @@
       margin-top: 90px;
     }
   
-    .header {
-      flex-direction: column;
+    .mapa{
+      width: 100%;
     }
   }

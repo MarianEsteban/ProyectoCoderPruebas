@@ -1,0 +1,11 @@
+/* MAPS */
+
+$estilo:(color:black,tamFuente:15px,padding: 15px 10px);
+
+
+.textarea{
+    font-size: map-get($estilo,tamFuente);
+    color: map-get($estilo,color); 
+    padding: map-get($estilo,padding);
+}
+
