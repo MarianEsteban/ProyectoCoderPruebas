@@ -97,14 +97,6 @@ body {
   border-radius: 4px;
   box-shadow: 4px; }
 
-h1 {
-  background-color: #265e97;
-  padding-top: 40px;
-  text-shadow: 3px #000;
-  font-size: 60px;
-  font-family: Square, cursive;
-  opacity: 0.8; }
-
 header {
   border-bottom: 2px solid black; }
 
@@ -142,7 +134,7 @@ main p {
 
 /* CONTACTO */
 .formulario {
-  margin-top: 20%;
+  margin-top: 10%;
   width: 100%;
   max-width: 1100%;
   margin: auto;
@@ -194,6 +186,20 @@ form {
   transition: all 300ms ease; }
 
 .formulario .botEnviar:hover {
+  background: #e39403; }
+
+.botBorrar {
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  outline: 0px;
+  background: lightblue;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease; }
+
+.formulario .botBorrar:hover {
   background: #e39403; }
 
 .ubicacion {
@@ -295,7 +301,7 @@ footer {
   */
 /*CARDS PRODUCTOS*/
 .cards {
-  margin-top: 10%;
+  margin-top: 2%;
   padding: 2%;
   display: flex;
   align-items: center; }
@@ -303,6 +309,12 @@ footer {
 .card1 {
   margin-left: 2%;
   margin-right: 2%; }
+
+.tituloProductos {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 0%; }
 
 .multimediaTexto {
   margin-top: 2%;
