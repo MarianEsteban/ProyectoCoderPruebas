@@ -12,11 +12,29 @@
 
 
   body {
-    background-color: aliceblue;
+    background-color: rgb(92, 154, 207);
   }
   
+ /* Navbar */
+
+ .colorNavbar{
+  background-color: #95b9d2;
+}
+
+ .fuentes{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+ }
   /* INICIO */
+
+  .inicio{
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
   
+ 
+
   .contenido-inicio {
     margin: 10%;
     padding: 2%;
@@ -83,6 +101,9 @@
     padding: 10px;
   }
   
+ 
+
+
   /* CONTACTO */
   
   .formulario {
@@ -239,7 +260,7 @@
     }
   }
   
-  /* HEADER DESHABILITADO POR BOOTSTRAP*/
+  /* HEADER DESHABILITADO POR BOOTSTRAP
   
   header {
     width: 100%;
@@ -270,10 +291,11 @@
   .logoheader {
     width: 100px;
   }
+  */
   
   /*CARDS PRODUCTOS*/
   
-  .Cards {
+  .cards {
     margin-top: 10%;
     padding: 2%;
     display: flex;
@@ -283,6 +305,12 @@
   .card1 {
     margin-left: 2%;
     margin-right: 2%;
+  }
+
+
+  .multimediaTexto{
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
   
   /* NAV DESHABILITADO POR BOOTSTRAP
@@ -330,6 +358,12 @@
   
   .nosotros {
     background: linear-gradient(to bottom right, blue, white);
+  }
+
+  .nosotrosTexto{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
   }
   
  

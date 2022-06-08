@@ -69,9 +69,22 @@ footer {
   box-sizing: border-box; }
 
 body {
-  background-color: aliceblue; }
+  background-color: #5c9acf; }
+
+/* Navbar */
+.colorNavbar {
+  background-color: #95b9d2; }
+
+.fuentes {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center; }
 
 /* INICIO */
+.inicio {
+  margin-top: 2%;
+  margin-bottom: 2%; }
+
 .contenido-inicio {
   margin: 10%;
   padding: 2%; }
@@ -248,33 +261,38 @@ footer {
     height: 1px;
     background-color: #7a7a7a; }
 
-/* HEADER DESHABILITADO POR BOOTSTRAP*/
-header {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 100;
-  background-color: whitesmoke; }
-
-.conteheader {
-  max-width: 1200px;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: auto;
-  padding: 0px 20px; }
-
-header .logoheader {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
-.logoheader {
-  width: 100px; }
-
+/* HEADER DESHABILITADO POR BOOTSTRAP
+  
+  header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background-color: whitesmoke;
+  }
+  
+  .conteheader {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+  }
+  
+  header .logoheader {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoheader {
+    width: 100px;
+  }
+  */
 /*CARDS PRODUCTOS*/
 .cards {
   margin-top: 10%;
@@ -285,6 +303,10 @@ header .logoheader {
 .card1 {
   margin-left: 2%;
   margin-right: 2%; }
+
+.multimediaTexto {
+  margin-top: 2%;
+  margin-bottom: 2%; }
 
 /* NAV DESHABILITADO POR BOOTSTRAP
   
@@ -330,6 +352,11 @@ header .logoheader {
   */
 .nosotros {
   background: linear-gradient(to bottom right, blue, white); }
+
+.nosotrosTexto {
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; }
 
 @media screen and (max-width: 800px) {
   .formulario {
