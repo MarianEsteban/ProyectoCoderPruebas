@@ -85,6 +85,19 @@ body {
   margin-top: 2%;
   margin-bottom: 2%; }
 
+.tittleInicio{
+  background-color: antiquewhite;
+  margin: 1%;
+  padding: 1%;
+  display: inline-block;
+  margin-left: 40%;
+  border-radius: 4px;
+  border-style: solid;
+}
+.textoInicio{
+  font-size: 1.2rem;
+  text-align: center;
+}
 .contenido-inicio {
   margin: 10%;
   padding: 2%; }
@@ -100,8 +113,41 @@ body {
 header {
   border-bottom: 2px solid black; }
 
+/* NOSOTROS */
+.tituloNosotros1 {
+  text-align: center;
+  font-size: 3.0rem;
+  text-decoration: underline;
+  margin-bottom: 1%;
+}
+
+.tituloNosotros2{
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.parrafosNosotros {
+  text-align: center;
+  font-size: 1.2em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; }
+
+
+ .imgNosotros {
+  margin: 10px;
+  padding: 10px;
+  background-color: antiquewhite;
+  border: black solid;
+  border-radius: 4px;
+  box-shadow: 4px;
+} 
+
 h2 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-decoration: underline; }
 
 .intro {
@@ -116,15 +162,6 @@ h3 {
   padding: 10px;
   margin: 10px; }
 
-div p {
-  padding: 10px;
-  margin: 5px; }
-
-main p {
-  width: auto;
-  padding: 10px;
-  margin: 10px; }
-
 .derecho {
   display: flex;
   justify-content: flex-end;
@@ -133,15 +170,25 @@ main p {
   padding: 10px; }
 
 /* CONTACTO */
+.contactoTittle{
+  font-size: 3.0rem;
+  text-align: center;
+}
+
+.imgContact{
+  justify-content: center;
+  margin-left: 15%;
+}
+
 .formulario {
-  margin-top: 10%;
+  margin-top: 2%;
   width: 100%;
   max-width: 1100%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  margin-top: 90px; }
+  }
   .formulario form .campo {
     width: 60%;
     padding: 15px 10px;
@@ -202,17 +249,7 @@ form {
 .formulario .botBorrar:hover {
   background: #e39403; }
 
-.ubicacion {
-  padding-bottom: 20px; }
 
-.ubicacion2 {
-  justify-content: center; }
-
-main p {
-  margin: 8%;
-  padding: 2%;
-  font-size: larger;
-  font-weight: 100; }
 
 /* FOOTER*/
 footer {
@@ -267,39 +304,6 @@ footer {
     height: 1px;
     background-color: #7a7a7a; }
 
-/* HEADER DESHABILITADO POR BOOTSTRAP
-  
-  header {
-    width: 100%;
-    height: 100px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    background-color: whitesmoke;
-  }
-  
-  .conteheader {
-    max-width: 1200px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 0px 20px;
-  }
-  
-  header .logoheader {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logoheader {
-    width: 100px;
-  }
-  */
-/*CARDS PRODUCTOS*/
 .cards {
   margin-top: 2%;
   padding: 2%;
@@ -318,57 +322,18 @@ footer {
 
 .multimediaTexto {
   margin-top: 2%;
-  margin-bottom: 2%; }
+  margin-bottom: 2%; 
+font-size: 1.5rem;
+text-align: center;
+}
 
-/* NAV DESHABILITADO POR BOOTSTRAP
-  
-  
-  .style-nav{
-      position: relative;
-      height: 100%;
-  }
-  
-  nav{
-      height: 100%;
-  }
-  
-  nav ul{
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  nav ul li{
-      margin: 0px 20px;
-      list-style: none;
-  }
-  
-  nav ul li a{
-      color: #373737;
-      font-size: 14px;
-  }
-  
-  .buttom{
-      background-color: lightblue;
-      padding: 10px 30px;
-      color: white;
-      border-radius: 20px;
-  }
-  
-  
-  section{
-      margin-top: 10%;
-      margin-bottom: 10%;
-  }
-  */
-.nosotros {
-  background: linear-gradient(to bottom right, blue, white); }
+
 
 .nosotrosTexto {
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold; }
+  font-weight: bold; 
+}
 
 @media screen and (max-width: 800px) {
   .formulario {
@@ -377,4 +342,12 @@ footer {
     grid-gap: 50px;
     margin-top: 90px; }
   .mapa {
-    width: 100%; } }
+    width: 100%; } 
+  .contactoTittle {
+    width: 100%;
+  }
+  .tittleInicio{
+    margin-left: 10%;
+  }
+  
+  }
