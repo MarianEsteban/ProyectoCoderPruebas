@@ -90,7 +90,7 @@ body {
   margin: 1%;
   padding: 1%;
   display: inline-block;
-  margin-left: 40%;
+  margin-left: 35%;
   border-radius: 4px;
   border-style: solid;
 }
@@ -172,16 +172,15 @@ h3 {
 /* CONTACTO */
 .contactoTittle{
   font-size: 3.0rem;
-  text-align: center;
+  text-align:left;
 }
 
 .imgContact{
-  justify-content: center;
-  margin-left: 15%;
+  margin-left: 10%;
 }
 
 .formulario {
-  margin-top: 2%;
+  margin-top: 0%;
   width: 100%;
   max-width: 1100%;
   margin: auto;
@@ -199,7 +198,7 @@ h3 {
     outline: 0px; }
 
 textarea {
-  width: 60%;
+  width: 30%;
   padding: 15px 10px;
   font-size: 15px;
   border: 1px solid black;
@@ -208,8 +207,8 @@ textarea {
   outline: 0px; }
 
 .formulario form textarea {
-  max-width: 530px;
-  min-width: 530px;
+  max-width: 450px;
+  min-width: 450px;
   min-height: 140px;
   max-height: 150px; }
 
@@ -340,12 +339,13 @@ text-align: center;
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 50px;
-    margin-top: 90px; }
-  .mapa {
-    width: 100%; } 
-  .contactoTittle {
+    margin-top: 50px; }
+  .textarea{
     width: 100%;
   }
+  .mapa {
+    width: 100%; } 
+  
   .tittleInicio{
     margin-left: 10%;
   }
